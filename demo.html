@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Gallery</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Inter, sans-serif;
+        }
+        .gallery, .row, .project {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            margin: 10px;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .back-link {
+            color: #fff;
+            text-decoration: none;
+            position: absolute;
+            top: 50px;
+            right: 80px;
+        }
+        .project-title {
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        @media (max-width: 991px) {
+            .project {
+                width: 100%;
+            }
+        }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+<main class="gallery">
+    <section class="row">
+        <article class="project">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/56ee6b1c706a885d8e790ae62104f96ca7d52b9810bed1298d370f06829a8500?apiKey=f3ba117ea2504f62b6cb215d7c755862" alt="Project Ichi Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT ICHI</div>
+        </article>
+        <article class="project">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0aa24d232f8787ac1ee94c818bc9687cb27d5cb031bed973a0532c7d2690c279?apiKey=f3ba117ea2504f62b6cb215d7c755862" alt="Project Ni Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT NI</div>
+        </article>
+        <article class="project">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a7ea9530c10b406b384c6a267a323a8ec0b02e9052716cf5791cac9ac2febb9?apiKey=f3ba117ea2504f62b6cb215d7c755862" alt="Project San Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT SAN</div>
+        </article>
+    </section>
+    <section class="row">
+        <article class="project">
+            <img alt="Project Yon Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT YON</div>
+        </article>
+        <article class="project">
+            <img alt="Project Go Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT GO</div>
+        </article>
+        <article class="project">
+            <img alt="Project Roku Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT ROKU</div>
+        </article>
+    </section>
+    <section class="row">
+        <article class="project">
+            <img alt="Project Nana Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT NANA</div>
+        </article>
+        <article class="project">
+            <img alt="Project Hachi Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT HACHI</div>
+        </article>
+        <article class="project">
+            <img alt="Project Ku Visual Representation" loading="lazy" />
+            <div class="project-title">PROJECT KU</div>
+        </article>
+    </section>
+    <a href="index.html" class="back-link" rel="noopener noreferrer">BACK</a>
+</main>
+
+</body>
+</html>
